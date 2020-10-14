@@ -10,7 +10,7 @@ YELLOW='\033[1;33m'
 WORKDIR=$(pwd)
 FILENAME='com.freestylelibre.app.de_2019-04-22'
 
-echo -e "${WHITE}Compruebe las herramientas que necesita ...${NORMAL}"
+echo -e "${WHITE}Compruebe las herramientas que necesita ....${NORMAL}"
 MISSINGTOOL=0
 echo -en "${WHITE}  apksigner ... ${NORMAL}"
 which apksigner > /dev/null
